@@ -1,0 +1,35 @@
+@media screen and (max-width: 1000px) {
+    nav{
+        padding: 1em;
+        /* min-height: 10em; */
+    }
+    .nav-img{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+       }
+
+    .hamburger-menu{
+        display: flex;
+        font-size: 1.7em;
+        position: relative;
+        
+    }
+    .soc-media{
+        display: none;
+    }
+    .nav-links{
+        height: 0;
+        /* overflow: hidden; */
+        position: relative;
+    }
+    header, .hamburger-menu{
+        border: 2px solid red;
+    }
+    .show-links{
+        height: 10em;
+display: block;
+    }
+}

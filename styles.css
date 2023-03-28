@@ -1,0 +1,54 @@
+/* GLOBAL STYLES */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/* 
+ .container{
+    width: 80%;
+    margin: 0 auto;
+}  */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+/* NAV IMG */
+
+
+.hamburger-menu{
+    display: none;
+}
+/* NAV-LINKS */
+.nav-links {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.nav-links li, .soc-media li{
+    padding: .5em;
+}
+
+/* SOC MEDIA */
+.soc-media{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* RESPONSIVENESS */
