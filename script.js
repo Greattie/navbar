@@ -1,8 +1,8 @@
-const hamburger = document.querySelector('.hamburger-menu')
-console.log(hamburger)
+const btn = document.querySelector('.btn')
+const sidebar = document.querySelector('.links-container')
 
-const btn = document.getElementById('btn')
+console.log(sidebar)
 
 btn.addEventListener('click', function(){
-    alert('shes good')
+    sidebar.classList.toggle('show-links')
 })

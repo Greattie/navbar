@@ -92,3 +92,7 @@ padding: .5em;
         width: 100%;
     }
 }
+
+.show-links{
+    display: none;
+}
