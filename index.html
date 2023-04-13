@@ -5,39 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <script src="https://kit.fontawesome.com/a2a418808a.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/a2a418808a.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Responsive Navbar</title>
   </head>
   <body>
-    <nav class="container">
-      <!-- LOGO -->
-      <div class="nav-img">
-        <header><img src="logo.svg" alt="Logo" /></header>
+    <nav class="nav-container">
+      <!-- LOGO AND LINKS -->
+      <div class="container">
+          <header><img src="logo.svg" alt="logo" /></header>
+
+          <ul class="nav-links">
+            <li><a href="#">Home </a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Product</a></li>
+          </ul>
+
+        <!-- HAMBURGER MENU -->
         <div class="hamburger-menu">
-            <i class="fa-solid fa-bars" id="menu"></i>
+          <button id="menu"><i class="fa-solid fa-bars" ></i></button>
         </div>
-      </div>
 
-      <!-- LINKS -->
-        <ul class="nav-links">
-          <li><a href="#">Home </a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Product</a></li>
-        </ul>
-      
-
-      <!-- SOC MEDIA ICONS -->
+        <!-- SOCIAL MEDIA LINKS -->
         <ul class="soc-media">
           <li><i class="fa-brands fa-facebook"></i></li>
           <li><i class="fa-brands fa-twitter"></i></li>
           <li><i class="fa-brands fa-linkedin"></i></li>
-          </ul>
-      
+        </ul>
+      </div>
     </nav>
 
-    
-    <button id="id">hello</button>
+    <section class="links-container">
+      <ul class="side-links">
+        <li><a href="#">Home </a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Product</a></li>
+      </ul>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>
